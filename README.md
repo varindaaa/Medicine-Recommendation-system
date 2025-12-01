@@ -36,10 +36,11 @@ The project integrates **Machine Learning**, **Flask backend**, and an **HTML/CS
 - Real-time prediction using the trained ML model  
 - User-friendly design with smooth navigation
 
-Dashboard
+## Dashboard
 <img width="959" height="492" alt="Dashboard" src="https://github.com/varindaaa/Medicine-Recommendation-system/blob/main/Dashboard.png"/>
 
-/HealthPredict
+
+## /HealthPredict
 │
 ├── /static
 │ ├── css
