@@ -1,28 +1,55 @@
-🩺 HealthPredict: Disease Prediction and Medicine Recommendation System
+# 🩺 HealthPredict – Disease Prediction & Medicine Recommendation System
 
-📺 Project Overview
-HealthPredict is an interactive web application that predicts diseases based on user-entered symptoms and provides personalized recommendations including medications, diet plans, and precautions.
-The project covers the complete workflow from data preprocessing and machine learning model training to building a Flask-based web interface for real-time predictions.
+## 📌 Project Overview
+**HealthPredict** is an ML-powered web application that predicts diseases based on user-entered symptoms and provides personalized recommendations including medicines, precautions, and dietary advice.  
+The project integrates **Machine Learning**, **Flask backend**, and an **HTML/CSS frontend** to deliver real-time predictions through a simple and interactive interface.
 
-🧰 Tools & Technologies
+## 🧰 Tools & Technologies
+- **Python**
+- **Flask**
+- **Scikit-learn**
+- **Pandas & NumPy**
+- **Pickle (for model deployment)**
+- **HTML, CSS, Bootstrap**
 
-Python – For data preprocessing, model development, and backend implementation
-Flask – To create the web application backend
-Scikit-learn – For training and evaluating machine learning models
-Pandas & NumPy – For data manipulation and preprocessing
-Pickle – For deploying the trained model
-HTML, CSS & Bootstrap – For building an interactive and responsive frontend
+## 🤖 Machine Learning Workflow
+- Performed **data preprocessing**, handled missing values, and encoded symptom–disease data  
+- Explored and trained multiple ML models:  
+  - Random Forest  
+  - Gradient Boosting  
+  - Support Vector Classifier (SVC)  
+  - K-Nearest Neighbors (KNN)  
+  - Multinomial Naive Bayes  
+- Hyperparameter tuning for optimal performance  
+- Achieved **100% accuracy** on clean dataset  
+- Exported final trained model using **Pickle** for real-time usage in Flask  
 
-📊 Key Features
-
-Disease Prediction: Predicts potential diseases based on user-inputted symptoms using multiple ML classifiers
-Multiple ML Models: Random Forest, Gradient Boosting, Support Vector Classifier, K-Nearest Neighbors, Multinomial Naive Bayes with hyperparameter optimization
-Recommendation System: Provides disease descriptions, medication suggestions, diet plans, and precautionary measures
-Interactive Web Interface: Easy-to-use frontend for real-time symptom input and result visualization
-Real-time Predictions: Model deployed using Pickle to provide instant predictions
-
-📷 Application Interface
-The web application offers a simple and responsive UI, allowing users to enter symptoms and instantly receive disease predictions along with detailed recommendations.
+## 🌐 Web Application Features
+- Simple and interactive **Frontend (HTML/CSS/Bootstrap)**  
+- Flask-based backend to handle user input and model predictions  
+- Displays complete medical insights:
+  - Disease Name  
+  - Description  
+  - Precautions  
+  - Recommended Medicines  
+  - Diet Suggestions  
+- Real-time prediction using the trained ML model  
+- User-friendly design with smooth navigation
 
 Dashboard
 <img width="959" height="492" alt="Dashboard" src="https://github.com/varindaaa/Medicine-Recommendation-system/blob/main/Dashboard.png"/>
+
+/HealthPredict
+│
+├── /static
+│ ├── css
+│ └── images
+│
+├── /templates
+│ ├── index.html
+│ └── result.html
+│
+├── model.pkl
+├── app.py
+├── dataset.csv
+└── README.md
