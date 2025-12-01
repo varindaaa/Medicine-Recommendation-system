@@ -24,4 +24,5 @@ Real-time Predictions: Model deployed using Pickle to provide instant prediction
 📷 Application Interface
 The web application offers a simple and responsive UI, allowing users to enter symptoms and instantly receive disease predictions along with detailed recommendations.
 
-![Dashboard]([https://example.com/my_image.png](https://github.com/varindaaa/Medicine-Recommendation-system/blob/main/Dashboard.png))
+![Dashboard]
+<img width="959" height="492" alt="MEGA_Alignment" src="(https://example.com/my_image.png](https://github.com/varindaaa/Medicine-Recommendation-system/blob/main/Dashboard.png)" />
